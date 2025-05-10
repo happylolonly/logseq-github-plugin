@@ -1,27 +1,24 @@
-## problem
+## Features
 
-- complex project management using github web interface is slow and ugly
-- impossible to have consolidated view of local knowledge graph tasks and github tasks
-- no offline read only access to github issues
+- Custom templates, use the keywords {title}, {URL} and {body} to easily keep track of the issues and integrate it with your system
+- Custom filtering of issues using githubs search operators, as long as the return value of the search is an issue, it should parse
+- Does not replace previously imported items so that you can easily integrate it with your workflow, instead only adds new items
 
-## solution
+## Instructions
 
-- logseq plugin with one way sync of all issues and its metadata to logseq
+- Open plugins
+- Click the gear icon in the logseq github plugin
+- Click open settings
+- Customize the options
 
-## features
-
-- [basic fetch of issues](https://github.com/mastercyb/loghub/issues/3)
-
-## instructions
-
-- TODO publish to logseq appstore
-
-## [roadmap](https://github.com/users/mastercyb/projects/5)
-
-issues with 🟢 have bounties in BOOT.
-`40🟢🟢🟢` means `40 000 000 000 BOOT` or `40 GBOOT`
-
-## credits
+## Authors
 
 - @sawhney17: initial implementation
-- @happylolonly: continue
+- @happylolonly, @mastercyb: continue
+
+Roadmap - https://github.com/mastercyb/loghub
+
+## Donations:
+
+- EVM - 0x5bb3e01c8ddce82af3f6e76f46d8965176a2daee
+- BTC - bc1qle36j2rrk6zcs4njzqdcn4auwa7nspg37dqpaf
