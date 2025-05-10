@@ -16,8 +16,8 @@
   "author": "",
   "license": "MIT",
   "logseq": {
-    "id": "loghub",
-    "title": "loghub",
+    "id": "logseq-github-plugin-2",
+    "title": "Logseq Github Plugin",
     "icon": "./icon.png"
   },
   "dependencies": {
