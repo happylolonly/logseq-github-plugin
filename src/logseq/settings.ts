@@ -2,13 +2,31 @@ import "@logseq/libs";
 import { SettingSchemaDesc } from "@logseq/libs/dist/LSPlugin.user";
 
 const settings: SettingSchemaDesc[] = [
+  // check README.md for more info
   {
     key: "API Key",
     type: "string",
-    title: "Enter github personal access token",
+    title: "Github token",
     description: "Enter your personal access token here",
     default: "",
   },
+  {
+    key: "TargetPage",
+    type: "string",
+    title: "Target page",
+    description:
+      "Enter your desired page, to where the blocks will be inserted",
+    default: "Github issues",
+  },
+  {
+    key: "SearchQuery",
+    type: "string",
+    title: "Search query",
+    description:
+      "Enter your desired search query, separated by commas (:userName, :orgName)",
+    default: "cybercongress",
+  },
+
   // {
   //   key: "OranizationName",
   //   type: "string",
@@ -16,21 +34,7 @@ const settings: SettingSchemaDesc[] = [
   //   description: "",
   //   default: "",
   // },
-  {
-    key: "TargetPage",
-    type: "string",
-    title: "Enter target page",
-    description:
-      "Enter your desired page, to where the blocks will be inserted",
-    default: "loghub",
-  },
-  {
-    key: "SearchQuery",
-    type: "string",
-    title: "Enter github search query",
-    description: "Enter your desired search query here",
-    default: "org:cybercongress is:issue",
-  },
+
   // {
   //   key: "Block1InsertionTemplate",
   //   type: "string",
