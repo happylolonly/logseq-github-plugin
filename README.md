@@ -7,9 +7,15 @@
 ## Instructions
 
 - Open plugins
-- Click the gear icon in the logseq github plugin
+- Click the gear icon in the plugin
 - Click open settings
 - Customize the options
+  - Github token - https://github.com/settings/personal-access-tokens
+  - Target page
+  - Query separated by commas (for example: `:orgName, :userName, :orgName`, etc.)
+- Run by command `/GithubPlugin: init`
+
+If any problems, check Dev Tools and submit issue.
 
 ## Authors
 
